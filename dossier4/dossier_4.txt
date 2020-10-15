@@ -1,0 +1,32 @@
+Dossier 4
+
+
+Question 1 :
+.NET (prononcez «Dotnet») est un standard proposé par la société Microsoft, pour le développement d'applications d'entreprises multi-niveaux, basées sur des composants. Microsoft .NET constitue ainsi la réponse de Microsoft à la plate-forme J2EE de Sun. La plate-forme .NET a été élaborée en s'appuyant sur une communauté d'utilisateurs et a abouti à l'élaboration de spécifications. Ces spécifications ont été ratifiées par un organisme international de standardisation, l'ECMA (European Computer Manufacturers Association), ce qui en fait un standard. Ainsi l'effort de standardisation a permis l'émergence de plates-formes portées par des entreprises tierces et disponibles sous un grand nombre de systèmes d'exploitation.
+
+
+Question 2 :
+ Hadoop est utilisé par les  entreprises comme  plateforme Big Data.
+Les  principaux usages d’Hadoop en entreprise sont : 
+
+-Le stockage low-cost et l’archive de données
+
+
+-Un bac à sable pour la découverte et l’analyse 
+
+- un lac de données utile (DATA LAKE)
+Pour  stocker une très large quantité de données brutes dans le format natif pour une durée indéterminée.
+Ces données sont  utilisées pour établir des rapports, pour visualiser les données, pour l’analyse de données ou pour le Machine Learning.
+
+- Complémenter les Data Warehouses en traitant et stockant les données  de data warehouse et  certains nouveaux types de données 
+
+
+- l’Internet des Objets  ou hadoop est utilisé comme data store pour un très grand nombre de transaction 
+
+
+- Création des systèmes et moteurs de recommandations pour analyser de grandes quantités de données en temps réel et prédire rapidement les préférences des consommateurs.
+
+
+
+
+

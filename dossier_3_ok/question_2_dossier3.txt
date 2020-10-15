@@ -1,0 +1,9 @@
+
+
+Si le message ACK du site 3 au site 2 est perdu, aucun des deux sites 2 et 4 ne peut entrer dans sa SC ; car
+S2 attend l'ACK du site 2 qui ne vient pas et P4 attend le REL du site 2 qui ne pourra pas venir.
+
+
+
+imposer un délai d’attente. Passé ce délai, l'ACK est redemandé. S'il n'est toujours pas reçu après un
+délai maximal, le site est supposé en panne et on n'attend plus son ACK

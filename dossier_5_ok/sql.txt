@@ -1,0 +1,33 @@
+﻿Stratégie "une seule table par arborescence d'héritage"
+create table stylo1 (
+   reference varchar2(100) ,
+  
+   description varchar2(100),
+   pu number,
+   couleur varchar2(20),
+   grammage number,
+    type_article varchar2(100) not null,
+
+   constraint pk_1 primary key (reference),
+   constraint ck1 check type_article in ('stylo','ramette')
+)
+
+Stratégie "une table par classe concrète"
+create table stylo2 (
+   reference varchar2(100) ,
+   description varchar2(100),
+   pu  number,
+   couleur varchar2(100),
+   constraint pk_2 primary key (reference)
+)
+
+
+Stratégie "une table par classe"
+create table stylo3 (
+  reference varchar2(100)
+  couleur varchar2(100),
+  constraint pk_3 primary key (reference),
+  constraint fk_3 foreign key (reference) references article(reference)
+  )
+
+
